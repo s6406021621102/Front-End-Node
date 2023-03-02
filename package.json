@@ -1,0 +1,26 @@
+{
+  "name": "front-end-node-2",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "AxiosNodeHtml.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s6406021621102/Front-End-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s6406021621102/Front-End-Node/issues"
+  },
+  "homepage": "https://github.com/s6406021621102/Front-End-Node#readme",
+  "devDependencies": {
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  }
+}
