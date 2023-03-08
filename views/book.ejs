@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".../CSS/style.css">
     <title>Book</title>
 </head>
 <body>
-    <h1><%= book.title %></h1>
-    <p>Author: <%= book.author %></p>
-    <a href="/update/<%= book.id%>">Edit</a>
-    <a href="/update/<%= book.id%>">Delete</a>
-    <a href="/">back to List</a>
+    <h1>View Book</h1>
+    <table class="book-table">
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+        </tr>
+        <tr>
+            <td><%= book.title %></td>
+            <td><%= book.author %></td>
+        </tr>
+    </table>
+    <div class="link-center">
+        <a href="/update/<%= book.id%>">Edit</a>
+        <a href="/update/<%= book.id%>">Delete</a>
+        <a href="/">back to List</a>
+    </div>
 </body>
 </html>
